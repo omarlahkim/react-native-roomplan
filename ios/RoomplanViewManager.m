@@ -1,7 +1,8 @@
 #import <React/RCTViewManager.h>
 
-@interface RCT_EXTERN_MODULE(RoomplanViewManager, RCTViewManager)
 
+@interface RCT_EXTERN_MODULE(RoomplanViewManager, RCTViewManager)
 RCT_EXPORT_VIEW_PROPERTY(color, NSString)
+
 
 @end

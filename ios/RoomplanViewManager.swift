@@ -6,8 +6,8 @@ import RoomPlan
 @objc(RoomplanViewManager)
 class RoomplanViewManager: RCTViewManager {
 
-  override func view() -> (RoomplanView) {
-    return RoomplanView()
+  override func view() -> (RoomCaptureView) {
+    return RoomCaptureView(frame: view.bounds)
   }
 
   @objc override static func requiresMainQueueSetup() -> Bool {
